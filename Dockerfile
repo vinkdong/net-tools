@@ -8,5 +8,7 @@ RUN \
                      net-tools \
                      dnsutils \
                      iputils-ping
-  
+
+RUN \
+  rm -rf /var/lib/apt/lists/*
   
