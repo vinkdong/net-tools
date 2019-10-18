@@ -7,7 +7,8 @@ RUN \
                      wget \
                      net-tools \
                      dnsutils \
-                     iputils-ping
+                     iputils-ping \
+                     vim 
 
 RUN \
   rm -rf /var/lib/apt/lists/*
